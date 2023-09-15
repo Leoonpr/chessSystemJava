@@ -34,6 +34,7 @@ public class Board {
 	public Piece piece(Position position) {
 		return pieces[position.getRow()][position.getColumn()];
 	}
+<<<<<<< HEAD
 	
 	public void placePiece (Piece piece, Position position) {
 		pieces[position.getRow()][position.getColumn()] = piece;
@@ -41,3 +42,6 @@ public class Board {
 		
 	}
 }
+=======
+}
+>>>>>>> 6f076a5820cc5cf4f6d105f0735bbef2d2624af7

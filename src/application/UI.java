@@ -11,14 +11,25 @@ public class UI {
 			}
 			System.out.println();
 		}
+<<<<<<< HEAD
 		System.out.println("  a b c d e f g h");
+=======
+		System.out.println(" a b c d e f g h");
+>>>>>>> 6f076a5820cc5cf4f6d105f0735bbef2d2624af7
 	}
 
 	private static void printPiece(ChessPiece piece) {
 		if (piece == null) {
 			System.out.print("-");
 		} else
+<<<<<<< HEAD
 			System.out.print(piece);
 		System.out.print(" ");
 	}
 }
+=======
+			System.out.println(piece);
+		System.out.print(" ");
+	}
+}
+>>>>>>> 6f076a5820cc5cf4f6d105f0735bbef2d2624af7
