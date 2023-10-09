@@ -4,5 +4,5 @@
 /**
  * 
  */
-module chess_system {
+module chess_systemv3 {
 }
